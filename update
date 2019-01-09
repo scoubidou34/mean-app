@@ -1,0 +1,4 @@
+#!/bin/bash 
+ng build --outputPath=dist
+node server.js
+ #nodemon server.js 
