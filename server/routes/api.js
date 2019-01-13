@@ -10,6 +10,15 @@ router.get('/', (req, res) => {
   res.send('api works');
 });
 
+/* GET api listing. */
+router.get('/cpu', (req, res) => {
+  var os =require('os');
+  console.log(os.platform());
+  res.send(os.platform());
+});
+
+ 
+
 // Get all posts
 router.get('/posts', (req, res) => {
   // Get posts from the mock api
