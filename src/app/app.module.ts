@@ -6,11 +6,13 @@ import { PostsComponent } from './posts/posts.component';
 import { PostsService } from './posts.service';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
+import { StreamComponent } from './stream/stream.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostsComponent
+    PostsComponent,
+    StreamComponent
   ],
   imports: [
     BrowserModule,

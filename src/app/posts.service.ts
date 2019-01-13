@@ -17,4 +17,5 @@ export class PostsService {
     return this.http.get('/api/posts')
       .map(res => res.json());
   }
+  getCpuName(){return this.http.get('/api/cpu');}
 }
